@@ -1,0 +1,135 @@
+/* Base & Reset */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #0f1419;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h2 {
+    text-align: center;
+    font-weight: 700;
+    margin: 30px 0 10px;
+    font-size: 28px;
+    color: #1da1f2;
+}
+
+/* Table Layout */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f7f9f9;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: center;
+    border-bottom: 1px solid #e6ecf0;
+}
+
+th {
+    background-color: #e8f5fd;
+    font-weight: bold;
+    color: #14171a;
+}
+
+/* Buttons */
+.btn, .btn-delete {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 9999px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border: none;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #0d8ddf;
+}
+
+.btn-delete {
+    background-color: #e0245e;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #c81e4d;
+}
+
+/* Form Styling */
+form {
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f7f9f9;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccd6dd;
+    border-radius: 12px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #14171a;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #0d8ddf;
+}
+
+/* Comment Boxes */
+.comment {
+    margin: 20px auto;
+    padding: 16px;
+    background-color: #e8f5fd;
+    border-radius: 16px;
+    max-width: 500px;
+    font-size: 14px;
+    color: #0f1419;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.comment strong {
+    color: #14171a;
+}
+
+.comment small {
+    color: #657786;
+    display: block;
+    margin-top: 6px;
+}
